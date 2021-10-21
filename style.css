@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #1f2224;
+}
+.container {
+  margin: 25px auto;
+  max-width: 1200px;
+}
+.user-block {
+  margin-bottom: 20px;
+}
+.user-title {
+  max-width: 830px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 15px;
+}
+.user-title ul {
+  display: flex;
+  width: 100%;
+}
+.user-title ul li {
+  max-width: 200px;
+  width: 100%;
+}
+.user-title ul li span {
+  color: rgba(214, 221, 222, 0.6);
+}
+.user-info {
+  background-color: #1a1c1e;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+.user-info .user-inner {
+  display: flex;
+  max-width: 830px;
+  width: 100%;
+}
+.user-inner li {
+  max-width: 200px;
+  width: 100%;
+  color: #d6ddde;
+}
+#add {
+  width: 113px;
+  height: 30px;
+  background: #499861;
+  border-radius: 4px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.user-added {
+  padding-left: 50px;
+}
+
+.modal-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: #1a1c1ece;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  display: none;
+}
+.modal {
+  max-width: 500px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 11;
+}
+.modal h1 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.modal-input {
+  width: 90%;
+}
+.modal-input input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid;
+  margin-bottom: 10px;
+}
+.modal-input input:focus {
+  transition: .3s all;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(0, 102, 255);
+}
+.lbl {
+  color: rgba(0, 0, 0, 0.6);
+}
+.user-add {
+  width: 100%;
+  
+}
+#addEl {
+  margin-top: 15px;
+  width: 100px;
+  height: 30px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #000;
+  background-color: #fff;
+  color: #000;
+  transition: .3s all;
+}
+#addEl:hover {
+  border: 2px solid rgb(0, 102, 255);
+  color: rgb(0, 102, 255);
+}
+.user {
+  display: flex;
+  width: 100%;
+  background-color: #1a1c1e;
+  padding: 15px 15px;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.user li {
+  max-width: 200px;
+  width: 100%;
+  color: #d6ddde;
+}
+#delBut {
+  width: 100px;
+  height: 30px;
+  border: none;
+  color: #fff;
+  background-color: red;
+  outline: none;
+  font-size: 17px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 9.6px;
+}

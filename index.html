@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="user-block">
+        <div class="user-title">
+          <ul>
+            <li><span>User Name</span></li>
+            <li><span>ID</span></li>
+            <li><span>Created date</span></li>
+            <li><span>Active Users</span></li>
+          </ul>
+        </div>
+        <div class="user-info">
+          <ul class="user-inner">
+            <li><span>Samvel-Hovhannisyan</span></li>
+            <li><span>07017</span></li>
+            <li><span>21 Oct 2021</span></li>
+            <li><span id="actUs">0</span></li>
+          </ul>
+          <button id="add">Add User</button>
+        </div>
+      </div>
+      <div class="user-added">
+        <div class="user-title">
+          <ul>
+            <li><span>User Name</span></li>
+            <li><span>ID</span></li>
+            <li><span>Created date</span></li>
+            <li><span>Age</span></li>
+          </ul>
+        </div>
+        <div class="user-add">
+          
+        </div>
+      </div>
+    </div>
+    <div class="modal-bg">
+      <div class="modal">
+        <h1>Please fill out the form</h1>
+        <div class="modal-input">
+          <label class="lbl" for="name">User Name</label> <br />
+          <input type="text" name="name" id="name" /> <br />
+          <label class="lbl" for="id">ID</label> <br />
+          <input type="text" name="id" id="id" /> <br />
+          <label class="lbl" for="age">Age</label> <br />
+          <input type="number" name="age" id="age" />
+        </div>
+        <button id="addEl">Add User</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
